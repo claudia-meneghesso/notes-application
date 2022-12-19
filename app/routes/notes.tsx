@@ -22,8 +22,14 @@ const Notes: FC = () => {
 
 export default Notes;
 
-// Runs on the server / backend
+export const meta = () => {
+  return {
+    title: "All Notes",
+    description: " Manage all your notes.",
+  };
+};
 
+// Runs on the server / backend
 export const CatchBoundary = () => {
   const caughtResponse = useCatch();
 

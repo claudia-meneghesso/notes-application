@@ -23,6 +23,13 @@ const NoteDetailsPage = () => {
 
 export default NoteDetailsPage;
 
+export const meta = ({ data }) => {
+  return {
+    title: data.title,
+    description: data.content,
+  };
+};
+
 export const loader = async ({ params }: { [key: string]: any }) => {
   const notes = await getStoredNotes();
 
