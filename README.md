@@ -1,4 +1,4 @@
-# Welcome to Remix!
+# Welcome to the Notes Application, developed with Remix!
 
 - [Remix Docs](https://remix.run/docs)
 
